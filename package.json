@@ -3,10 +3,11 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "start": "npm run dev",
-    "dev": "edgespec dev"
+    "dev": "edgespec dev",
+    "build": "edgespec bundle --output dist/bundle.js"
   },
   "keywords": [],
   "author": "",
