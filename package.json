@@ -1,0 +1,26 @@
+{
+  "name": "fake-github",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "edgespec dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "edgespec": "^0.0.69",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@ava/get-port": "^2.0.0",
+    "ava": "^6.1.2",
+    "axios": "^1.6.8",
+    "esbuild-register": "^3.5.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  }
+}
